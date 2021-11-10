@@ -760,6 +760,22 @@ header .fa-bars{
   height:4rem;
   width:3rem;
   margin-top: 1rem;
+  margin-left: 46.5pc;
+  color:#fff;
+  background: teal;
+  font-size: 2rem;
+}
+
+.review .btn{
+  outline: none;
+  border:none;
+  cursor: pointer;
+  transition: .2s linear;
+  height:4rem;
+  margin-bottom: 2pc;
+  margin-left: 46pc;
+  width:3rem;
+  margin-top: 1rem;
   color:#fff;
   background: teal;
   font-size: 2rem;
