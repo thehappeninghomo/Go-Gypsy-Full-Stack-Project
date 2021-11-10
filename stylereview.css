@@ -12,7 +12,7 @@ a{
 #testinomials
 {
     /* opacity: .1; */
-    background: url(./img/reviewbackground\ \(1\).jpeg) no-repeat center center/cover;
+    background: url(./review_images/reviewbackground\ \(1\).jpeg) no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
