@@ -96,10 +96,10 @@ header .fa-bars{
   justify-content: space-around;
   position: relative;
   padding:2rem 10rem;
-  background-color: teal;
+  /*background-color: teal;*/
 }
 
-.home .video video{
+.home .video-container video{
   position: absolute;
   top:0; left:0;
   height:100%;
