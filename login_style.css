@@ -106,3 +106,11 @@ form span{
     overflow: hidden;
     /* display: none; */
 }
+a {
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    left: 350px;
+    text-decoration: none;
+    color: teal;
+}
