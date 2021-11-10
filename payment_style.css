@@ -1,0 +1,73 @@
+* {
+    font-family: 'Kalam', cursive;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  background: url("./payment_images/background.jpg") no-repeat center
+    center/cover;
+  position: absolute;
+  opacity: 0.8;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 70%;
+  height: 90vh;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 30px;
+  /* overflow: hidden; */
+}
+.method {
+  width: 50%;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  /* margin: 0px 100px; */
+}
+#all_methods {
+  margin: 30px 0px;
+}
+
+#all_methods label {
+  display: inline-block;
+  padding: 10px 0px;
+}
+.cards_image {
+  width: 30%;
+}
+aside {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* right: 20px; */
+}
+.aside_image {
+  /* width: ; */
+  margin: 30px;
+  /* padding: ; */
+  /* display: inline-block; */
+  /* position: relative; */
+  /* right: 20px; */
+  width: 70%;
+}
+@media screen and (max-width: 700px) {
+    
+  .aside_image {
+    display: none;
+  }
+  .box{
+      /* height: 100vh; */
+      overflow: scroll;
+  }
+}
+
+label {
+  font-size: 20px;
+}
